@@ -81,7 +81,5 @@ namespace Assignment_1
             Console.WriteLine("Balance: " + balance);
             Console.WriteLine("Address: " + address);
         }
-
-
     }
 }
