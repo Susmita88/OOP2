@@ -44,7 +44,12 @@ namespace Assignment_1
 
         public void PrintAddress()
         {
-            Console.WriteLine("Address:Road No-{0}, House No-{1}, City-{2}, Country-{3}", this.roadNo, this.houseNo, this.city, this.country);
+           Console.WriteLine("Address:Road No-{0}, House No-{1}, City-{2}, Country-{3}", this.roadNo, this.houseNo, this.city, this.country);
+        }
+        public string GetAddress()
+
+        {
+            return this.roadNo + "," + this.houseNo + "," + this.city + "," + this.country;
         }
     }
 }
